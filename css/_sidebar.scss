@@ -1,0 +1,136 @@
+.sidebar {
+    width: 31%;
+    padding-right: 58px;
+
+    h1 {
+        font-size: 37px;
+        font-weight: 800;
+        letter-spacing: 9.2px;
+        line-height: 61px;
+        margin: 25px 0 23px 0;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 4.1px;
+        line-height: 37px;
+        margin: 0;
+    }
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 0 18px 0;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    margin: 55px 0 56px 0;
+}
+
+.img-item {
+    background-color: white;
+    border: 1px solid #E2E2E2;
+    width: 100%;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 37px;
+
+    a {
+        display: block;
+        border-bottom: none;
+        overflow: hidden;
+    }
+
+    h3 {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+        margin: 27px 0 0 23px;
+    }
+    
+    p {
+        font-size: 10px;
+        letter-spacing: 3.3px;
+        margin: 0 0 0 23px;
+    }
+
+    .avatar {
+        position: absolute;
+        bottom: 24px;
+        right: 22px;
+        width: 45px;
+    }
+}
+
+.mini-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 28px;
+    margin-top: 25px;
+    border-top: 1px solid #E2E2E2;
+
+    &:first-child {
+        padding-top: 0;
+        margin-top: 0;
+        border: none;
+    }
+
+    ul {
+        width: 18%;
+        margin: 0;
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h3 {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+        color: inherit;
+        line-height: 21px;
+        margin: 0 0 0 28px;
+    }
+
+    p {
+        font-size: 10px;
+        letter-spacing: 3.3px;
+        margin: 0 0 0 28px;
+        line-height: 3;
+    }
+
+    a {
+        border-bottom: none;
+    }
+
+    .when {
+        width: 82%;
+    }
+}
+
+.about {
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    margin: 52px 0 56px 0;
+    padding: 60px 0 56px 0;
+        
+    h3 {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: inherit;
+        margin: 0;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 27px 0 33px 0;
+        letter-spacing: 0;
+        line-height: 29px;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: #646464;
+    }
+}

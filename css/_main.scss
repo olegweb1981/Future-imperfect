@@ -1,0 +1,51 @@
+.main {
+    width: 69%;
+
+    .news {
+        background-color: white;
+        border: 1px solid #E2E2E2;
+        
+    }
+
+    .caption {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #E2E2E2;
+    }
+
+    .title {
+        width: 66%;
+        border-right: 1px solid #E2E2E2;
+        padding: 55px;
+    }
+
+    .date {
+        position: relative;
+        width: 34%;
+        padding: 55px;
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            border: none;
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .info {
+        padding: 55px;
+        
+        a {
+            overflow: hidden;
+            display: block;
+        }
+
+    }
+}
