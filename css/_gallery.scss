@@ -1,0 +1,43 @@
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 0 18px 0;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    margin: 55px 0 56px 0;
+}
+
+.img-item {
+    background-color: white;
+    border: 1px solid #E2E2E2;
+    width: 100%;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 37px;
+
+    a {
+        display: block;
+        border-bottom: none;
+        overflow: hidden;
+    }
+
+    h3 {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+        margin: 27px 0 0 23px;
+    }
+    
+    p {
+        font-size: 10px;
+        letter-spacing: 3.3px;
+        margin: 0 0 0 23px;
+    }
+
+    .avatar {
+        position: absolute;
+        bottom: 24px;
+        right: 22px;
+        width: 45px;
+    }
+}

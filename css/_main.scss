@@ -4,7 +4,7 @@
     .news {
         background-color: white;
         border: 1px solid #E2E2E2;
-        
+        margin-bottom: 57px;
     }
 
     .caption {
@@ -14,38 +14,73 @@
     }
 
     .title {
-        width: 66%;
+        width: 73%;
         border-right: 1px solid #E2E2E2;
-        padding: 55px;
+        padding: 56px 54px 55px 54px;
+
+        h2 {
+            font-weight: 900;
+            font-size: 1.7em;
+            letter-spacing: 0.28em;
+            line-height: 1.65;
+            margin: 0;
+            padding: 14px 0 17px 0;
+        }
+
+        p {
+            font-size: 0.8em;
+            font-weight: 400;
+            letter-spacing: 0.25em;
+            line-height: 2.5;
+            margin: 0;
+            padding-bottom: 9px;
+        }
     }
 
     .date {
         position: relative;
-        width: 34%;
-        padding: 55px;
+        width: 31%;
+        padding: 67px 55px 0 0;
+        text-align: right;
 
-        ul {
-            list-style-type: none;
+        h3 {
+            font-size: 0.8em;
+            font-weight: 700;
+            letter-spacing: 0.27em;
+            padding-bottom: 3px;
         }
 
-        li {
-            border: none;
+        a {
+            vertical-align: middle;
+            font-size: 0.6em;
+            font-weight: 400;
+            letter-spacing: 0.3em;
+            margin-right: 14px;
         }
 
         img {
-            position: absolute;
-            top: 0;
-            right: 0;
+            display: inline-block;
+            vertical-align: middle;
+            width: 2.8em;
         }
     }
 
     .info {
-        padding: 55px;
-        
+        padding: 55px 54px 55px 54px;
+
         a {
             overflow: hidden;
             display: block;
         }
 
+        p {
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.6px;
+            line-height: 32px;
+            color: #646464;
+            padding: 38px 0 19px 0;
+        }
     }
 }

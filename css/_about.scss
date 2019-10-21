@@ -1,0 +1,57 @@
+.about {
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    margin: 52px 0 56px 0;
+    padding: 60px 0 56px 0;
+        
+    h3 {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: inherit;
+        margin: 0;
+    }
+
+    p {
+        font-size: 17px;
+        margin: 27px 0 33px 0;
+        letter-spacing: 0;
+        line-height: 29px;
+        font-family: "Source Sans Pro", Helvetica, sans-serif;
+        color: #646464;
+    }
+}
+
+.social {
+
+    padding: 6px 0 47px 0;
+
+    i {
+        color: #aaaaaa;
+        padding-right: 18px;
+        font-size: 19px;
+        border: none;
+    }
+}
+
+.copyright {
+    
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+
+        color: #aaaaaa;
+        font-family: "Raleway", Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: 400;
+        letter-spacing: 0.25em;
+        padding-right: 5px;
+    }
+}

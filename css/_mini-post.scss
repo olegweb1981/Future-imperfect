@@ -1,0 +1,49 @@
+.mini-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 28px;
+    margin-top: 25px;
+    border-top: 1px solid #E2E2E2;
+
+    &:first-child {
+        padding-top: 0;
+        margin-top: 0;
+        border: none;
+    }
+
+    ul {
+        width: 18%;
+        margin: 0;
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    h3 {
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+        color: inherit;
+        line-height: 21px;
+        margin: 0;
+    }
+
+    p {
+        font-size: 10px;
+        letter-spacing: 3.3px;
+
+        line-height: 3;
+    }
+
+    a {
+        border-bottom: none;
+    }
+
+    .when {
+        width: 82%;
+        padding: 0 0 0 28px;
+    }
+}

@@ -20,3 +20,31 @@
         transition-timing-function: ease-in-out;
     }
 }
+
+.main {
+
+    .btn {
+        font-size: 0.75em;
+        width: 262px;
+        font-weight: 700;
+        letter-spacing: 0.4em;
+        padding: 23px 0;
+    }
+
+    .btn-reading {
+        font-size: 0.75em;
+        width: 262px;
+    }
+
+    .btn-previous {
+        width: 222px;
+        cursor: inherit;
+        border: 1px solid #E2E2E2;
+        color: #E2E2E2;
+    }
+    
+    .btn-next {
+        width: 178px;
+        margin-left: 14px;
+    }
+}

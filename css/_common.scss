@@ -31,7 +31,6 @@ body {
     &:hover {
         border: none;
         color: #2EBAAE;
-        display: block;
     }
 }
 
@@ -58,7 +57,7 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
-    padding: 149px 101px;
+    padding: 149px 101px 122px 101px;
     display: flex;
     flex-direction: row;
 }
