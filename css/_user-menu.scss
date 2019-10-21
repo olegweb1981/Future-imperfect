@@ -1,0 +1,30 @@
+.user-menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    a {
+        color: #a9a9a9;
+        font-size: 19px;
+
+        .search, .nav {
+            padding: 0 28px 0 29px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            border-left: 1px solid #E2E2E2;
+            cursor: pointer;
+
+            i {
+                margin-bottom: 2px;
+                margin-right: 2px;
+            }
+        }
+    }
+
+    .link {
+        border-bottom: none;
+        transition-timing-function: linear;
+        transition-duration: 0.5s;
+    }
+}
