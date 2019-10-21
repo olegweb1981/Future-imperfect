@@ -21,6 +21,7 @@ body {
     padding: 0;
 }
 
+
 .link {
     border-bottom: dotted 1px;
     color: inherit;
@@ -36,6 +37,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+button {
+    font-family: inherit;
 }
 
 .scale {
