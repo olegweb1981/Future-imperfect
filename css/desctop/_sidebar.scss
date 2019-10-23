@@ -1,0 +1,30 @@
+@media screen and (max-width: $xl-width) {
+
+    .container {
+        padding: 104px 76px 122px 76px;
+    }
+
+    .sidebar {
+
+        width: 30%;
+        padding-right: 48px;
+
+        img {
+            width: 64px;
+        }
+    
+        h1 {
+            font-size: 32px;
+            letter-spacing: 8px;
+            line-height: 52px;
+            margin: 19px 0 20px 0;
+        }
+    
+        p {
+            font-size: 12px;
+            letter-spacing: 3.9px;
+            line-height: 31px;
+        }
+
+    }
+}

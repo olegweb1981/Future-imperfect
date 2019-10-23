@@ -1,0 +1,61 @@
+@media screen and (max-width: $xl-width) {
+
+    .main {
+        width: 71%;
+    
+        .news {
+            margin-bottom: 57px;
+        }
+    
+        .title {
+            width: 73%;
+            padding: 56px 54px 55px 54px;
+    
+            h2 {
+                font-size: 1.7em;
+                letter-spacing: 0.28em;
+                line-height: 1.65;
+                padding: 14px 0 17px 0;
+            }
+    
+            p {
+                font-size: 0.8em;
+                letter-spacing: 0.25em;
+                line-height: 2.5;
+                padding-bottom: 9px;
+            }
+        }
+    
+        .date {
+            width: 31%;
+            padding: 67px 55px 0 0;
+    
+            h3 {
+                font-size: 0.8em;
+                letter-spacing: 0.27em;
+                padding-bottom: 3px;
+            }
+    
+            a {
+                font-size: 0.6em;
+                letter-spacing: 0.3em;
+                margin-right: 14px;
+            }
+    
+            img {
+                width: 2.8em;
+            }
+        }
+    
+        .info {
+            padding: 55px 54px 55px 54px;
+    
+            p {
+                font-size: 18px;
+                letter-spacing: 0.6px;
+                line-height: 32px;
+                padding: 38px 0 19px 0;
+            }
+        }
+    }
+}

@@ -21,7 +21,6 @@ body {
     padding: 0;
 }
 
-
 .link {
     border-bottom: dotted 1px;
     color: inherit;
@@ -35,12 +34,12 @@ body {
     }
 }
 
-a {
-    text-decoration: none;
-}
-
 button {
     font-family: inherit;
+}
+
+a {
+    text-decoration: none;
 }
 
 .scale {
@@ -62,7 +61,7 @@ button {
 .container {
     width: 90%;
     margin: 0 auto;
-    padding: 149px 101px 122px 101px;
+    padding: 149px 100px 122px 101px;
     display: flex;
     flex-direction: row;
 }

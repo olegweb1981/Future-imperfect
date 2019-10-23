@@ -1,0 +1,13 @@
+@media screen and (max-width: $xl-width) {
+
+    .user-menu {
+   
+        a {
+            font-size: 16px;
+    
+            .search, .nav {
+                padding: 0 23px 0 26px;
+            }
+        }
+    }
+}

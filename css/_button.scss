@@ -8,8 +8,7 @@
     background-color: transparent;
     border: 1px solid;
     border-color: #E2E2E2;
-    width: 153px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 2.6px;
 
     &:active, &:hover {
@@ -21,30 +20,24 @@
     }
 }
 
-.main {
+.btn-sm {
+    padding: 19px 27px 20px 27px;
+    letter-spacing: 2.8px;
+}
 
-    .btn {
-        font-size: 0.75em;
-        width: 262px;
-        font-weight: 800;
-        letter-spacing: 0.4em;
-        padding: 23px 0;
-    }
+.btn-lg {
+    letter-spacing: 4px;
+    padding: 23px 39px 24px 38px;
+    font-size: 0.75em;
+}
 
-    .btn-reading {
-        font-size: 0.75em;
-        width: 262px;
-    }
+.btn-vissible {
+    cursor: inherit;
+    border: 1px solid #E2E2E2;
+    color: #E2E2E2;
+}
 
-    .btn-previous {
-        width: 222px;
-        cursor: inherit;
-        border: 1px solid #E2E2E2;
-        color: #E2E2E2;
-    }
-    
-    .btn-next {
-        width: 178px;
-        margin-left: 14px;
-    }
+.btn-next {
+    padding: 23px 0;
+    margin-left: 14px;
 }
