@@ -1,0 +1,16 @@
+@media screen and (max-width: $lg-width) {
+    
+    .gallery-item {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 48px 0 15px 0;
+        margin: 49px 0 47px 0;
+    }
+
+    .img-item {
+        width: 48.6%;
+    }
+}

@@ -1,20 +1,22 @@
-@media screen and (max-width: $xl-width) {
+@media screen and (max-width: $md-width) {
     
     .gallery-item {
-        padding: 48px 0 14px 0;
-        margin: 47px 0 47px 0;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
     .img-item {
 
-        padding-bottom: 11px;
-        margin-bottom: 32px;
+        width: 50%;
+
+        .scale {
+            width: 100%;
+        }
 
         p {
             font-size: 10px;
             letter-spacing: 2.4px;
             margin: 0 0 0 20px;
-            line-height: 31px;
         }
 
         h3 {

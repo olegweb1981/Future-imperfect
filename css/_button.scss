@@ -1,15 +1,15 @@
 .btn {
     border: none;
-    padding: 19px 0;
-    font-size: 11px;
+    padding: 23px 39px 24px 38px;
+    font-size: 0.75em;
     text-align: center;
     cursor: pointer;
     outline: none;
     background-color: transparent;
     border: 1px solid;
     border-color: #E2E2E2;
-    font-weight: 700;
-    letter-spacing: 2.6px;
+    font-weight: 900;
+    letter-spacing: 4px;
 
     &:active, &:hover {
         outline: none;
@@ -23,12 +23,7 @@
 .btn-sm {
     padding: 19px 27px 20px 27px;
     letter-spacing: 2.8px;
-}
-
-.btn-lg {
-    letter-spacing: 4px;
-    padding: 23px 39px 24px 38px;
-    font-size: 0.75em;
+    font-size: 11px;
 }
 
 .btn-vissible {
@@ -37,7 +32,6 @@
     color: #E2E2E2;
 }
 
-.btn-next {
-    padding: 23px 0;
+.btn-next { 
     margin-left: 14px;
 }

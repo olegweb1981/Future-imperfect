@@ -1,0 +1,51 @@
+@media screen and (max-width: $lg-width) {
+
+    .logo-lg {
+
+        text-align: center;
+        padding-bottom: 46px;
+
+        img {
+            width: 64px;
+        }
+
+        h1 {
+            font-weight: 900;
+            font-size: 32px;
+            letter-spacing: 8px;
+            line-height: 52px;
+            margin: 19px 0 19px 0;
+            
+        }
+
+        p {
+            font-size: 10px;
+            letter-spacing: 3.3px;
+            line-height: 31px;
+            margin: 0;
+        }
+    }
+
+    .main {
+    
+        .news {
+            margin-bottom: 48px;
+        }
+    
+        .date {
+            width: 347px;
+            padding: 57px 48px 0 0;
+    
+            h3 {
+                font-size: 0.7em;
+                letter-spacing: 0.25em;
+            }
+    
+            a {
+                font-size: 0.6em;
+                letter-spacing: 0.25em;
+                margin-right: 11px;
+            }
+        }
+    }
+}

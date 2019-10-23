@@ -19,6 +19,7 @@ body {
     color: #3E3D3D;
     margin: 0;
     padding: 0;
+    font-size: 100%;
 }
 
 .link {
@@ -64,4 +65,5 @@ a {
     padding: 149px 100px 122px 101px;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
 }

@@ -1,5 +1,5 @@
 .main {
-    width: 69.333%;
+    width: 100%;
 
     .news {
         background-color: white;
@@ -14,9 +14,9 @@
     }
 
     .title {
-        width: 71%;
+        width: 100%;
         border-right: 1px solid #E2E2E2;
-        padding: 56px 55px 54px 55px;
+        padding: 56px 56px 54px 56px;
 
         h2 {
             font-weight: 900;
@@ -39,7 +39,7 @@
 
     .date {
         position: relative;
-        width: 31%;
+        width: 452px;
         padding: 67px 56px 0 0;
         text-align: right;
 
@@ -58,7 +58,7 @@
             margin-right: 14px;
         }
 
-        img {
+        .avatar {
             display: inline-block;
             vertical-align: middle;
             width: 45px;
@@ -66,7 +66,7 @@
     }
 
     .info {
-        padding: 56px 56px 55px 55px;
+        padding: 56px 56px 55px 56px;
 
         a {
             overflow: hidden;

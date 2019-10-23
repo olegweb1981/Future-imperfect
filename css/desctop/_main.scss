@@ -1,60 +1,58 @@
 @media screen and (max-width: $xl-width) {
 
     .main {
-        width: 71%;
     
         .news {
-            margin-bottom: 57px;
+            margin-bottom: 48px;
         }
     
         .title {
-            width: 73%;
-            padding: 56px 54px 55px 54px;
+            padding: 46px 48px 55px 48px;
     
             h2 {
-                font-size: 1.7em;
-                letter-spacing: 0.28em;
+                font-size: 1.5em;
+                letter-spacing: 0.25em;
                 line-height: 1.65;
-                padding: 14px 0 17px 0;
+                padding: 14px 0 15px 0;
             }
     
             p {
-                font-size: 0.8em;
-                letter-spacing: 0.25em;
+                font-size: 0.6em;
+                letter-spacing: 0.34em;
                 line-height: 2.5;
-                padding-bottom: 9px;
+                padding-bottom: 0;
             }
         }
     
         .date {
-            width: 31%;
-            padding: 67px 55px 0 0;
+            width: 376px;
+            padding: 57px 48px 0 0;
     
             h3 {
-                font-size: 0.8em;
-                letter-spacing: 0.27em;
-                padding-bottom: 3px;
+                font-size: 0.7em;
+                letter-spacing: 0.25em;
             }
     
             a {
                 font-size: 0.6em;
-                letter-spacing: 0.3em;
-                margin-right: 14px;
+                letter-spacing: 0.25em;
+                margin-right: 11px;
             }
     
-            img {
-                width: 2.8em;
+            .avatar {
+                width: 38px;
             }
         }
     
         .info {
-            padding: 55px 54px 55px 54px;
+            padding: 47px 48px 48px 48px;
     
             p {
-                font-size: 18px;
-                letter-spacing: 0.6px;
-                line-height: 32px;
-                padding: 38px 0 19px 0;
+                font-size: 16px;
+                letter-spacing: 0;
+                line-height: 28px;
+                padding: 48px 0 32px 0;
+                margin: 0;
             }
         }
     }

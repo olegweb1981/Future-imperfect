@@ -1,19 +1,23 @@
 .sidebar {
-    width: 31%;
-    padding-right: 57px;
+    width: 29.1em;
+    min-width: 29.1em;
+    padding-right: 56px;
 
-    h1 {
-        font-size: 37px;
-        font-weight: 900;
-        letter-spacing: 9.2px;
-        line-height: 61px;
-        margin: 25px 0 23px 0;
-    }
+    .logo {
 
-    p {
-        font-size: 14px;
-        letter-spacing: 4.1px;
-        line-height: 37px;
-        margin: 0;
+        h1 {
+            font-size: 37px;
+            font-weight: 900;
+            letter-spacing: 9.2px;
+            line-height: 61px;
+            margin: 25px 0 23px 0;
+        }
+
+        p {
+            font-size: 14px;
+            letter-spacing: 4.1px;
+            line-height: 37px;
+            margin: 0;
+        }
     }
 }

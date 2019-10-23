@@ -1,0 +1,13 @@
+@media screen and (max-width: $md-width) {
+
+    .main-menu {
+        
+        .logo-text {
+            border-right: 0;
+        }
+    
+        .nav-menu {
+            display: none;
+        }
+    }
+}

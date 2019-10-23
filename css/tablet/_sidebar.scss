@@ -1,2 +1,24 @@
 @media screen and (max-width: $lg-width) {
+
+    .container {
+        flex-direction: column;
+        padding: 104px 48px 66px 48px;
+    }
+
+    .sidebar {
+        order: 1;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1281px) {
+    .logo-lg {
+        display: none;
+    }
 }
