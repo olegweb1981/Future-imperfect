@@ -1,0 +1,48 @@
+@media screen and (max-width: $sm-width) {
+
+    .logo-lg {
+        padding: 0 42px 42px 42px;
+
+        h1 {
+            font-size: 20px;
+            letter-spacing: 5px;
+            line-height: 17px;
+            margin: 19px 0 15px 0;
+        }
+    }
+
+    .main {
+
+        .news {
+            margin-bottom: 32px;
+        }
+
+        .caption {
+            padding: 34px 34px 36px 34px;
+        }
+        
+        .title {
+            padding: 0 0 40px 0;
+
+            h2 {
+                font-size: 1.1em;
+            }
+
+            p {
+                line-height: 1;
+            }
+        }
+    
+        .info {
+            padding: 24px 24px 34px 24px;
+
+            p {
+                padding: 23px 0 32px 0;
+            }
+        }
+
+        .next-page {
+            padding: 0 24px 0 24px;
+        }
+    }
+}

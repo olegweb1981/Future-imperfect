@@ -1,0 +1,13 @@
+@media screen and (max-width: $sm-width) {
+
+    .user-menu {
+
+        a .search {
+            display: none;
+        }
+        
+        .nav {
+            padding: 0 23px 0 26px;
+        }
+    }
+}

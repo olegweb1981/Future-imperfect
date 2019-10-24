@@ -1,0 +1,19 @@
+@media screen and (max-width: $xs-width) {
+
+    .main {
+
+        .footer {
+            flex-direction: column-reverse;
+            padding: 0 24px 0 24px;
+
+            ul {
+                padding: 6px 0 36px 0;
+
+                li {
+                    padding-left: 12px;
+                    margin-left: 12px;
+                }
+            }
+        }
+    }
+}

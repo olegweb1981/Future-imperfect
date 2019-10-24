@@ -4,12 +4,14 @@
 
         .news {
             border: 0;
+            margin-bottom: 48px;
+            border-bottom: 1px solid #E2E2E2;
         }
 
         .caption {
             flex-direction: column;
             text-align: center;
-            padding: 46px 0 48px 0;
+            padding: 46px 46px 49px 46px;
             border-top: 1px solid #E2E2E2;
         }
         
@@ -30,6 +32,9 @@
                 display: flex;
                 flex-direction: row-reverse;
                 align-items: center;
+                padding-left: 19px;
+                margin-left: 19px;
+                border-left: 1px solid #E2E2E2;
             }
     
             h3 {
@@ -41,6 +46,14 @@
                 margin-left: 11px;
                 margin-right: 0;
             }
+
+            .avatar {
+                width: 33px;
+            }
+        }
+
+        .next-page {
+            padding: 0 48px 0 48px;
         }
     }
 }

@@ -10,7 +10,7 @@
             list-style-type: none;
             flex-direction: row;
             margin: 0;
-            padding-top: 6px;
+            padding: 6px 0 0 0;
 
             li {
                 font-size: 9.5px;
@@ -23,6 +23,8 @@
 
                 &:first-child {
                     border-left: none;
+                    margin-left: 0;
+                    padding-left: 0;
                 }
             }
         }

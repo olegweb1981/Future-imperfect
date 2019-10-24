@@ -1,0 +1,66 @@
+@media screen and (max-width: $xs-width) {
+
+    .logo-lg {
+        padding: 0 24px 45px 24px;
+
+        h1 {
+            margin: 19px 0 18px 0;
+        }
+
+        p {
+            line-height: 26px;
+        }
+    }
+
+    .main {
+
+        .news {
+            margin-bottom: 32px;
+        }
+
+        .caption {
+            padding: 34px 24px 16px 24px;
+            border-bottom: 0;
+        }
+        
+        .title {
+            padding: 0 0 23px 0;
+
+            h2 {
+                padding: 14px 0 6px 0;
+            }
+
+            p {
+                line-height: 2.9;
+            }
+        }
+
+        .date {
+            flex-direction: column;
+            align-items: center;
+
+            .author {
+                margin: 0;
+                padding: 0;
+                border: 0;
+
+                a {
+                    display: none;
+                }
+            }
+        }
+    
+        .info {
+            padding: 24px 0 34px 0;
+
+            p {
+                padding: 23px 24px 38px 24px;
+            }
+
+        }
+
+        .next-page {
+            padding: 0 24px 0 24px;
+        }
+    }
+}

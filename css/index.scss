@@ -33,3 +33,18 @@
 @import 'portrait/main-menu';
 @import 'portrait/main';
 @import 'portrait/sidebar';
+@import 'portrait/gallery';
+
+//mobile
+@import 'mobile/main-menu';
+@import 'mobile/user-menu';
+@import 'mobile/main';
+@import 'mobile/sidebar';
+@import 'mobile/gallery';
+
+//mobile-xs
+@import 'mobile-xs/main';
+@import 'mobile-xs/footer';
+@import 'mobile-xs/button';
+@import 'mobile-xs/gallery';
+@import 'mobile-xs/mini-post';
