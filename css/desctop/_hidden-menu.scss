@@ -1,0 +1,45 @@
+@media screen and (max-width: $xl-width) {
+    .hidden-menu {
+        padding: 47px 0 55px 0;
+        width: 400px;
+    
+        .search {
+            margin: 0 48px 0 48px;
+    
+            input {
+                padding: 10px 10px 10px 39px;
+                font-size: 16px;
+            }
+    
+            i {
+                top: 15px;
+                left: 12px;
+                font-size: 16px;
+            }
+        }
+    
+        .nav {
+            margin: 47px 0;
+            padding: 44px 48px 44px 48px;
+    
+            ul {
+                margin-top: 19px;
+                padding-top: 20px;
+    
+                li {
+                    font-size: 10px;
+                    letter-spacing: 2.6px;
+                    line-height: 27px;
+    
+                    &:nth-child(1) {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    
+        .log-in {
+            padding: 0 44px 0 44px;
+        }
+    }
+}

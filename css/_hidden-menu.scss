@@ -4,13 +4,14 @@
     right: 0;
     z-index: 9999;
     text-align: center;
-    border: 1px solid #E2E2E2;
+    border-left: 1px solid #E2E2E2;
     background-color: white;
-    padding: 55px 0 55px 0;
+    padding: 56px 0 55px 0;
     width: 467px;
     height: 100%;
     transform: translateX(467px);
     transition: transform 0.5s ease, visibility 0.5s;
+    max-width: 80%;
 
     .search {
         color: #a9a9a9;
@@ -31,7 +32,7 @@
 
             &:focus {
                 border: solid 2px;
-                border-color: #53BE9B;
+                border-color: #2EBAAE;
             }
 
             &::placeholder {

@@ -1,0 +1,26 @@
+@media screen and (max-width: $xl-width) {
+    .hidden-menu {
+        padding: 24px 0 22px 0;
+    
+        .search {
+            margin: 0 24px 0 24px;
+    
+            input {
+                padding: 10px 10px 10px 39px;
+            }
+    
+            i {
+                top: 14px;
+            }
+        }
+    
+        .nav {
+            margin: 24px 0;
+            padding: 20px 24px 20px 24px;
+        }
+    
+        .log-in {
+            padding: 0 24px 0 24px;
+        }
+    }
+}
