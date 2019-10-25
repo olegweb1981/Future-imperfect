@@ -1,4 +1,4 @@
-.hidden-menu {
+.menu {
     position: fixed;
     top: 0;
     right: 0;
@@ -96,6 +96,7 @@
     }
 }
 
-.vissible-menu {
+
+body.is-menu-visible .menu {
     transform: translateX(0);
 }
