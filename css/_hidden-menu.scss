@@ -1,0 +1,100 @@
+.hidden-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    text-align: center;
+    border: 1px solid #E2E2E2;
+    background-color: white;
+    padding: 55px 0 55px 0;
+    width: 467px;
+    height: 100%;
+    transform: translateX(467px);
+    transition: transform 0.5s ease, visibility 0.5s;
+
+    .search {
+        color: #a9a9a9;
+        text-align: left;
+        position: relative;
+        margin: 0 55px 0 56px;
+
+        input {
+            border: 2px solid #E2E2E2;
+            background-color: #F8F8F8;
+            width: 100%;
+            outline: 0;
+            padding: 11px 10px 12px 46px;
+            font-size: 19px;
+            color: #a9a9a9;
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            text-decoration: none;
+
+            &:focus {
+                border: solid 2px;
+                border-color: #53BE9B;
+            }
+
+            &::placeholder {
+                color: #a9a9a9;
+            }
+        }
+
+        i {
+            position: absolute;
+            top: 15px;
+            left: 14px;
+            font-size: 19px;
+        }
+    }
+
+    .nav {
+        margin: 56px 0;
+        border-bottom: 1px solid #E2E2E2;
+        border-top: 1px solid #E2E2E2;
+        padding: 50px 55px 50px 56px;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            border-top: 1px solid #E2E2E2;
+            margin-top: 21px;
+            padding-top: 22px;
+
+            &:first-child {
+                border-top: 0;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            li {
+                text-decoration: none;
+                font-size: 11px;
+                letter-spacing: 3px;
+                line-height: 33px;
+
+                &:nth-child(1) {
+                    font-weight: 700;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .link {
+            border-bottom: none;
+        }
+    }
+
+    .log-in {
+        padding: 0 55px 0 56px;
+
+        .btn {
+            width: 100%;
+        }
+    }
+}
+
+.vissible-menu {
+    transform: translateX(0);
+}
